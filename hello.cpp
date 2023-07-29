@@ -3,4 +3,4 @@ int main(){
 	int n;
 	scanf(%d,&n);
     printf(hello world);
-    return 0;
+    return 0;}
