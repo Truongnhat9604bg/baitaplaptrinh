@@ -10,7 +10,7 @@ int main(){
     tong=a + b;
     hieu=  a-b;
     tich= a*b;
-    thuong= a/b;
+    thuong= a%b;
     cout << tong << " " << hieu << " " << tich << " " << thuong << endl;
     system("pause");
 }
