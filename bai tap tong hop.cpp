@@ -48,26 +48,26 @@ if(n<=0 || t<1 || t>12){
    }
 }
 */
-/*
-    char n;
-    cin >> n;
 
-    if(n>=97 && n<122){
-           n+=1;
-           cout <<  n << endl;
-    }else if(n>=65 && n<90){
-           n+=33;
-           cout << n << endl;
-    }else if(n==90){
-           n+=7;
-           cout << n << endl;
-    }else if(n==122){
-           n-=25;
-            cout << n << endl;
-    }else{
-        cout << "INVALID";
-    }
-   */
+    // char n;
+    // cin >> n;
+
+    // if(n>=97 && n<122){
+    //        n+=1;
+    //        cout <<  n << endl;
+    // }else if(n>=65 && n<90){
+    //        n+=33;
+    //        cout << n << endl;
+    // }else if(n==90){
+    //        n+=7;
+    //        cout << n << endl;
+    // }else if(n==122){
+    //        n-=25;
+    //         cout << n << endl;
+    // }else{
+    //     cout << "INVALID";
+    // }
+   
 
 /*
 int a,b,c,max,min;
@@ -118,7 +118,7 @@ tuan = du/7;
 ngay= tuan%7;
 cout << nam << " " << tuan <<  " " << ngay << endl; 
 */
-
+/*
 int a,b,c;
 cout << "nhap phuong trinh ax^2+bx+c=0:  ";
 cin >> a >> b >> c;
@@ -133,5 +133,51 @@ if(delta >0){
 }else{
     cout << "NO\n";
 }
+*/
+
+// double x,y,z,max,min;
+// cin >>  x >> y >> z;
+
+// if(x>=(x-y) && x>=(y-z) && x>=(z-x)){
+//     max=x;
+// }else if((x-y)>=x && (x-y)>=(y-z) && (x-y)>=(z-x)){
+//    max=(x-y);
+// }else if((y-z)>=x && (y-z)>=(x-y) && (y-z)>=(z-x)){
+//     max=(y-z);
+// }else if((z-x)>=x && (z-x)>=(x-y) && (z-x)>=(y-z)){
+//     max=(z-x);
+// } 
+
+// if(y<=(x+y) && y<=(y+z) && y<=(z+x)){
+//     min=y;
+// }else if((x+y)<=y && (x+y)<=(y+z) && (x+y)<=(z+x)){
+//     min=(x+y);
+// }else if((y+z)<=y && (y+z)<=(x+y) && (y+z)<=(z+x)){
+//     min=(y+z);
+// }else if((z+x)<=y && (z+x)<=(x+y) && (z+x)<=(y+z)){
+//     min=(z+x);
+// }
+// cout << max << " " << min << endl;
+
+// int a,b;
+// float x;
+// cout <<  "giai phuong trinh bac nhat ax+b=0 ";
+// cin >> a >> b;
+// if(a>0 && b>0){
+//     x=(-b)/(float)a;
+//     cout << "phuong trinh co nghiem= " << x << endl;
+// }else{
+    
+//     cout << "phuong trinh vo nghiem!\n"; 
+// }
+int s,n;
+cin >> n;
+while (n!=0)
+{
+    s=n%10;
+    n/=10;
+    cout << s <<  endl;
+}
+
     system("pause");
    }
