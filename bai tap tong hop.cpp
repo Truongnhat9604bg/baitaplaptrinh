@@ -170,14 +170,18 @@ if(delta >0){
     
 //     cout << "phuong trinh vo nghiem!\n"; 
 // }
-int s,n;
-cin >> n;
-while (n!=0)
-{
-    s=n%10;
-    n/=10;
-    cout << s <<  endl;
-}
+// int s,n;
+// cin >> n;
+// while (n!=0)
+// {
+//     s=n%10;
+//     n/=10;
+//     cout << s <<  endl;
+// }
 
+int a,b;
+cin >> a >> b;
+int s=(a/b)*b;
+cout << s << endl;
     system("pause");
    }
