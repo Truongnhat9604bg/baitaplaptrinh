@@ -25,6 +25,7 @@ int main(){
             cout << i << " ";
          }
       }
+      cout << "\n";
    }
     system("pause");
 }
