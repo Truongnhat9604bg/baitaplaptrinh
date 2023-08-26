@@ -46,6 +46,8 @@ gets(n);
    
    system("pause");
 } */
+
+// bài toán bán vé xem phim
 #include <iostream>
 #include <string>
 using namespace std;
