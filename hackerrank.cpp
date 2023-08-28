@@ -73,6 +73,8 @@ int main(){
  
 system("pause");
 } */
+
+// bài toán bán vé xem phim
 bool check(int x[],int t){
      int c25=0,c50=0;
      for(int i=0;i<t;i++){
