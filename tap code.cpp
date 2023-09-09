@@ -1,10 +1,8 @@
-#include <iostream>
-#include <math.h>
-#include <string.h>
-#include <ctype.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+// đếm số ký tự khác nhau trong chuỗi
+/* int main(){
     string n,y;
     getline(cin,n);
     getline(cin,y);
@@ -22,4 +20,27 @@ int main(){
     }
 cout << "\n";
 system("pause");
+} */
+
+// tần suất của các phần tử trong mảng
+int main(){
+    int n;
+    cin >> n;
+    int p[n];
+    for(int i=0;i<n;i++){
+        cin >> p[i];
+    }
+    //dùng 2 vòng lặp duyệt các phần tử,so sánh các phần tử
+    for(int i=0;i<n;i++){
+        int cnt=1;
+        for(int j=0;j<i;j++){
+            if(p[j]==p[i]){
+                cnt=0;
+                break;
+            }
+        }
+          if(cnt)
+          cout << p[i] << " ";    
+    }
+   system("pause");
 }
