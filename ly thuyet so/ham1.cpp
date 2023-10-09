@@ -24,6 +24,7 @@ bool nt(int n){
     }
     return n>1;
 }
+//đếm số hoàn hảo trong đoạn
 int main(){
     int l,r,tmp=1;
     cin >> l >> r;
