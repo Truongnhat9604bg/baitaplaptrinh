@@ -3,7 +3,7 @@
 using namespace std;
 string thay(string s, string x, string y) {
 size_t pos = s.find(x);
-while (pos != string::npos) {
+while (pos != string::npos){
 s.replace(pos, x.length(), y);
 pos = s.find(x, pos + y.length());
 }
