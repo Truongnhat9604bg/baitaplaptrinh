@@ -26,10 +26,12 @@ int main(){
     for(int i=0;i<n;i++){
         cin >> p[i];
     }
+    
 /*   int t=binary_search(p,p+n,x);
   if(t)
   cout << t << endl;
   else cout << t << endl; */
+
   cout << timkiem(p,n,x) << endl;
   ok;
 
